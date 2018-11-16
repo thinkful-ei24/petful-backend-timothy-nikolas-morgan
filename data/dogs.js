@@ -11,11 +11,11 @@ module.exports = [
   {
     imageURL: 'https://cdn2.thedogapi.com/images/rJa29l9E7_640.jpg',
     imageDescription: 'Affectionate, Lively, Responsive, Alert, Loyal, Reserved, Playful, Gentle, Intelligent, Active, Trainable, Strong',
-    name: 'Wa',
+    name: 'Tetsuo',
     sex: 'Male',
     age: 5,
     breed: 'Shetland Sheepdog',
-    story: 'Came from space'
+    story: 'Went crazy with psychic powers'
   },
   {
     imageURL: 'https://cdn2.thedogapi.com/images/HJAFgxcNQ_640.jpg',
@@ -34,5 +34,14 @@ module.exports = [
     age: 4,
     breed: 'Japanese Spitz',
     story: 'Abandoned by Shinzo Abe'
+  },
+  {
+    imageURL: 'https://cdn2.thedogapi.com/images/SJ5vzx5NX_640.jpg',
+    imageDescription: 'Fearless, Alert, Loyal, Confident, Gay, Eager',
+    name: 'Hersheys',
+    sex: 'Female',
+    age: 8,
+    breed: 'Gordon Setter',
+    story: 'Software engineer'
   }
 ];

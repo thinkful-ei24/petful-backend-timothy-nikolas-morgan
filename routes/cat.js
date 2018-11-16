@@ -18,5 +18,4 @@ router.delete('/', (req, res, next) => {
   res.sendStatus(204);
 });
 
-
 module.exports = router;
