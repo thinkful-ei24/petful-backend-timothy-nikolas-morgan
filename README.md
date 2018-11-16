@@ -2,10 +2,6 @@
 
 This is the RESTFul API for the Petful app. Hosted on Heroku [here](https://petful-backend.herokuapp.com).
 
-## Getting started
-
-### Setting up a project
-
 ### GET `/api/cat` endpoint
 Returns information about the next cat in queue. 
 
