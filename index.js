@@ -29,8 +29,7 @@ app.use('/api/cat', catRouter);
 app.use('/api/dog', dogRouter);
 
 app.use((req, res, next) => {
-  res.status = 404;
-  return res.json({
+  return res.status(404).json({
     message: 'Shelter is empty'
   });
 });
