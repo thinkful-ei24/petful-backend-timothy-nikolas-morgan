@@ -7,7 +7,7 @@ Returns information about the next cat in queue.
 
 Response 
 
-`{
+{
 
     imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg',
     
@@ -23,7 +23,8 @@ Response
     
     story: 'Thrown on the street'   
     
-}`
+}
+
 ### DELETE `/api/cat` endpoint
 Removes the next cat in queue from the shelter.
 
@@ -32,7 +33,7 @@ Returns information about the next dog in queue.
 
 Response 
 
-`{
+{
     imageURL: 'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
     
     imageDescription: 'A smiling golden-brown golden retreiver listening to music.',
@@ -47,7 +48,7 @@ Response
     
     story: 'Owner Passed away'
     
-  }`
+ }
   
 ### DELETE `/api/dog` endpoint
 Removes the next dog in queue from the shelter.
