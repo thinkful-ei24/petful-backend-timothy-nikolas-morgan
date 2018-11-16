@@ -14,7 +14,7 @@ router.get('/', (req, res, next) => {
 
 router.delete('/', (req, res, next) => {
   if(catShelter.isEmpty()) return next();
-  const adoptedCat = catShelter.dequeue();
+  catShelter.dequeue();
   res.sendStatus(204);
 });
 
