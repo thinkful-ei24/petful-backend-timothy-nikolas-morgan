@@ -11,6 +11,7 @@ const { dbConnect } = require('./db-mongoose');
 const app = express();
 
 const catRouter = require('./routes/cat');
+const dogRouter = require('./routes/dog');
 
 app.use(
   morgan(process.env.NODE_ENV === 'production' ? 'common' : 'dev', {
@@ -25,6 +26,7 @@ app.use(
 );
 
 app.use('/api/cat', catRouter);
+app.use('/api/dog', dogRouter);
 
 function runServer(port = PORT) {
   const server = app

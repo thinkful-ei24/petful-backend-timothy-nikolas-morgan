@@ -2,13 +2,12 @@ const express = require('express');
 
 const router = express.Router();
 
-const cats = require('../data/cats');
+const dogs = require('../data/dogs');
 
 router.get('/', (req, res) => {
 
-  const cat = cats[0];
-
-  res.json(cat);
+  const dog = dogs[0];
+  res.json(dog);
 });
 
 
