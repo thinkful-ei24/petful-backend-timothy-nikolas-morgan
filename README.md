@@ -5,7 +5,7 @@ This is the RESTFul API for the Petful app. Hosted on Heroku [here](https://petf
 ### GET `/api/cat` endpoint
 Returns information about the next cat in queue. 
 
-Response 
+Response:
 
 {
 
@@ -31,7 +31,7 @@ Removes the next cat in queue from the shelter.
 ### GET `/api/dog` endpoint
 Returns information about the next dog in queue. 
 
-Response 
+Response:
 
 {
 
