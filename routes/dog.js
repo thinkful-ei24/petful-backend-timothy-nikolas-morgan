@@ -7,15 +7,15 @@ const dogShelter = new Queue();
 dogs.forEach(dog => dogShelter.enqueue(dog));
 
 router.get('/', (req, res, next) => {
-  if(dogShelter.isEmpty()) return next();
+  if (dogShelter.isEmpty()) return next();
   const dog = dogShelter.peek();
   res.json(dog);
 });
 
 router.delete('/', (req, res, next) => {
-  if(dogShelter.isEmpty()) return next();
+  if (dogShelter.isEmpty()) return next();
   const adoptedDog = dogShelter.dequeue();
-  res.sendStatus(204);
+  res.sendStatus(404);
 });
 
 module.exports = router;
