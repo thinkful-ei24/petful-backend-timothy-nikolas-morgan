@@ -15,7 +15,7 @@ router.get("/", (req, res, next) => {
 router.delete("/", (req, res, next) => {
   if (catShelter.isEmpty()) return next();
   catShelter.dequeue();
-  res.sendStatus(404);
+  res.sendStatus(204);
 });
 
 module.exports = router;
