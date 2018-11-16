@@ -55,6 +55,6 @@ Response:
 Removes the next dog in queue from the shelter.
 
 
-### Tech Stack
+## Tech Stack
 - Node.js
 - Express
