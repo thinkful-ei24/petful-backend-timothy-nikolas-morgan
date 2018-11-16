@@ -28,6 +28,13 @@ app.use(
 app.use('/api/cat', catRouter);
 app.use('/api/dog', dogRouter);
 
+app.use((req, res, next) => {
+  res.status = 404;
+  return res.json({
+    message: 'Shelter is empty'
+  });
+});
+
 function runServer(port = PORT) {
   const server = app
     .listen(port, () => {
